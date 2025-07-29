@@ -28,7 +28,7 @@ return {
     opts = {
       picker_integration = true
     }
-  }, 
+  },
   {
     "NeogitOrg/neogit",
     dependencies = {
