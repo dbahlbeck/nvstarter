@@ -12,6 +12,9 @@ return {
       require "configs.lspconfig"
     end,
   },
+  {
+    "simrat39/symbols-outline.nvim",
+  }
 
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
