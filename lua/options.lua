@@ -17,9 +17,6 @@ require("nvim-tree").setup({
 
 -- add yours here!
 
-require("symbols-outline").setup({
-})
-
 -- local o = vim.o
 -- o.cursorlineopt ='both' -- to enable cursorline!
 --
