@@ -15,6 +15,23 @@ require("nvim-tree").setup({
   }
 })
 
+require("uv").setup({
+  opts = {
+    picker_integration = true
+  }
+})
+
+require("neogit").setup({})
+
+
+require("lspconfig").yamlls.setup({
+  yaml = {
+    schemaStore = {
+      enable = true
+    }
+  }
+})
+
 -- add yours here!
 
 -- local o = vim.o

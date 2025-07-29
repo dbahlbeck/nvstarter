@@ -22,8 +22,20 @@ return {
     opts = {
       outfold_depth = false
     }
+  },
+  {
+    "benomahony/uv.nvim",
+    opts = {
+      picker_integration = true
+    }
+  }, 
+  {
+    "NeogitOrg/neogit",
+    dependencies = {
+      "nvim-lua/plenary.nvim",         -- required
+      "sindrets/diffview.nvim",        -- optional - Diff integration
+    }
   }
-
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
