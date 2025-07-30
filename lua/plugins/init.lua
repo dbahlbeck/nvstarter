@@ -12,24 +12,6 @@ return {
       require "configs.lspconfig"
     end,
   },
-  {
-    "hedyhli/outline.nvim",
-    lazy = true,
-    cmd = { "Outline", "OutlineOpen" },
-    keys = {
-      { "<leader>o", "<cmd>Outline<CR>", desc = "Toggle outline" },
-    },
-    opts = {
-      outfold_depth = false,
-    },
-  },
-  {
-    "benomahony/uv.nvim",
-    opts = {
-      picker_integration = true,
-    },
-  },
-
 
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
