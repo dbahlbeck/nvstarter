@@ -1,40 +1,38 @@
 require "nvchad.options"
 
-require("nvim-tree").setup({
+require("nvim-tree").setup {
   view = {
-    width = 50
+    width = 50,
   },
   renderer = {
     icons = {
       glyphs = {
         git = {
           -- unstaged = "U"
-        }
-      }
-    }
-  }
-})
+        },
+      },
+    },
+  },
+}
 
-require("uv").setup({
+require("uv").setup {
   opts = {
-    picker_integration = true
-  }
-})
+    picker_integration = true,
+  },
+}
 
-require("neogit").setup({})
+-- require("neogit").setup {}
 
-
-require("lspconfig").yamlls.setup({
+require("lspconfig").yamlls.setup {
   yaml = {
     schemaStore = {
-      enable = true
-    }
-  }
-})
+      enable = true,
+    },
+  },
+}
 
 -- add yours here!
 
 -- local o = vim.o
 -- o.cursorlineopt ='both' -- to enable cursorline!
 --
-
