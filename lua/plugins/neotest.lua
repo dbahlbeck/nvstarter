@@ -1,4 +1,5 @@
 return {
+  event = "VeryLazy",
   "nvim.neotest/neotest",
   dependencies = {
     "nvim-neotest/nvim-nio",
