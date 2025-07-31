@@ -20,8 +20,12 @@ require("nvim-tree").setup {
 
 require("lspconfig").yamlls.setup {
   yaml = {
-    schemaStore = {
-      enable = true,
+    settings = {
+      schemaStore = {
+        enable = false,
+        url = ""
+      },
+      schemas = require("schemastore").yaml.schemas()
     },
   },
 }
