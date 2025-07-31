@@ -4,20 +4,15 @@ require("nvim-tree").setup {
   view = {
     width = 50,
   },
+  filters = {
+    dotfiles = false,
+  },
   renderer = {
     icons = {
       glyphs = {
-        git = {
-          -- unstaged = "U"
-        },
+        git = {},
       },
     },
-  },
-}
-
-require("uv").setup {
-  opts = {
-    picker_integration = true,
   },
 }
 

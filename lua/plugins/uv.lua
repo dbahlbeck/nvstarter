@@ -1,7 +1,7 @@
 return {
   "benomahony/uv.nvim",
+  lazy = false,
   opts = {
-    picker_integration = true,
-    notify_activate_venv = false
+    notify_activate_venv = true,
   },
 }
