@@ -9,7 +9,7 @@ map("i", "jk", "<ESC>")
 
 map("n", '<leader>ta', function()
   local neotest = require('neotest')
-  neotest.run.run(vim.fn.expand('%'))
+  neotest.run.run(vim.fn.getcwd())
   neotest.output_panel.open()
   neotest.summary.open()
 end)
