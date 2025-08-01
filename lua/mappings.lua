@@ -22,6 +22,7 @@ map("n", '<leader>tt', function()
 end)
 
 vim.api.nvim_set_keymap("n", "<C-h>", ":NvimTreeOpen<cr>", {silent = true, noremap = true})
+vim.api.nvim_set_keymap("n", "<C-o>", ":OutlineFocus<cr>", {silent = true, noremap = true})
 
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
